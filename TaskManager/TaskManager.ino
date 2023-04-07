@@ -13,11 +13,11 @@ int ledState4 = LOW;
 int ledState5 = LOW;
 
 // constants won't change:
-const long interval = 500000;  
-const long interval2 = 400000;
-const long interval3 = 300000;
-const long interval4 = 200000;
-const long interval5 = 100000;// interval at which to blink (milliseconds)
+const long interval = 60;  
+const long interval2 = 900;
+const long interval3 = 1200;
+const long interval4 = 15000;
+const long interval5 = 200000;// interval at which to blink (milliseconds)
 
 void ledOn(int ledState, int ledPin) {
     // if the LED is off turn it on and vice-versa:
